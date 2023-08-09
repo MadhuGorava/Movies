@@ -1,0 +1,63 @@
+/* MoviePage.css */
+
+.movie-page {
+  padding: 2rem;
+}
+
+.movie-search {
+  margin-bottom: 1rem;
+}
+
+.movie-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.movie-card h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.movie-card p {
+  margin: 0.5rem 0;
+}
+/* MoviePage.css */
+
+/* ... (existing styles) */
+
+.movie-filters {
+  margin: 1rem 0;
+}
+
+.movie-filters label {
+  margin-right: 0.5rem;
+}
+
+.movie-filters input,
+.movie-filters select,
+.movie-filters button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.pagination {
+  margin-top: 1rem;
+}
+
+.pagination button {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: white;
+}
